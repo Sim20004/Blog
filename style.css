@@ -9,6 +9,25 @@
     background: #222;
     transform:scale(0.67);
   }
+
+#donate {
+    position: fixed;
+    font-size: 20px;
+    bottom: 90px;
+    right: 20px;
+    background-color: white;
+    width: 180px;
+    height: 50px;
+    border-radius: 8px;
+    z-index:100;
+    transition:0.2s;
+}
+
+#donate:hover {
+  transform:scale(0.9);
+  transition:0.2s;
+}
+
  
  .fixed-button {
     position: fixed;

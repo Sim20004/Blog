@@ -68,7 +68,7 @@
 }
 
 .post-image {
-  width: 500px; 
+  width: 450px; 
   height: auto;
   flex-shrink: 0;
   background-size: contain;

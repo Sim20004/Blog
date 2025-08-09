@@ -19,8 +19,18 @@
     </p>
     <img class="post-image" src="Resources/Post Images/9.8.25.png" alt="Icon">
   </div>
-</div>
+    </div>
 
+   <script>
+function checkOrientation() {
+  if (window.innerHeight > window.innerWidth) {
+    alert("Please rotate your device to landscape mode.");
+  }
+}
+
+window.addEventListener("load", checkOrientation);
+window.addEventListener("resize", checkOrientation);
+</script>
 
 </body>
 </html>

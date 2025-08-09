@@ -13,15 +13,15 @@
 #donate {
     position: fixed;
     font-size: 20px;
-    bottom: 90px;
-    right: 20px;
+    right: 328px;
     background-color: white;
-    color:black;
+    color: black;
     width: 180px;
-    height: 50px;
+    height: 60px;
+    z-index: 100;
+    transition: 0.2s;
+    top: 20px;
     border-radius: 8px;
-    z-index:100;
-    transition:0.2s;
 }
 
 #donate:hover {

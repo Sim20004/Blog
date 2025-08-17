@@ -106,11 +106,9 @@
 }
 
 .square-border {
-  position: absolute;
-  top: 180px;
-  left: 50px;
+  margin: 50px auto;
   width: 1300px;
-  height: 650px;
+  max-width: 90%; 
   border: 6px solid white;
   padding: 20px;
   box-sizing: border-box;
